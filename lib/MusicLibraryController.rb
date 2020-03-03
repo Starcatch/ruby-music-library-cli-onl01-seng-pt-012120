@@ -6,5 +6,7 @@ class MusicLibraryController
      MusicImporter.new(path).import
   end 
   
-  def
+  def call
+    puts "Welome"
+  end 
 end 
